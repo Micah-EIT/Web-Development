@@ -1,0 +1,40 @@
+html {
+    display: flex;
+    place-content: center;
+    text-align: center;
+    background-image: url(Images/i-love-geocities-31-07-2025.png);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: comic-sans;
+    src: url(Fonts/COMIC.ttf);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 5rem;
+    font-family: comic-sans;
+}
+
+a {
+    margin: auto 0;
+    font-size: 5rem;
+    margin: auto;
+    color:  #ffff00;
+}
+
+a:visited {
+    color: #ffff00;
+}
+
+img {
+    width: 50%;
+}
